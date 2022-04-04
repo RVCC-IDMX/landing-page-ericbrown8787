@@ -7,14 +7,18 @@
     "logo menu-icon"
     "menu menu";
   padding-block: 1rem;
-  padding-inline: 1rem;
+  padding-inline: 0.7rem;
   justify-content: space-between;
   align-items: center;
   max-width: v.$body-element-max-width;
 
   @media screen and (min-width: 768px) {
     grid-template-areas: "logo menu menu menu";
-    padding-inline: 2.5rem;
+    padding-inline: v.$body-padding-tablet;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-inline: v.$body-padding-desktop;
   }
 
   &__logo {
@@ -23,7 +27,7 @@
     align-items: center;
     gap: 1rem;
     a {
-      font-family: t.$logo-font;
+      font-family: t.$heading-font;
       font-size: t.$logo-font-size;
       color: white;
       text-decoration: none;
@@ -85,7 +89,7 @@
 
   &__toggle {
     grid-area: menu-icon;
-    padding-inline: 1rem;
+    padding-inline-end: 1.3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,13 +102,9 @@
   }
 }
 
-.menu {
-}
-
 .close {
   display: none;
-
-  background-color: white;
+  fill: white;
   height: 32px;
   width: 32px;
 }

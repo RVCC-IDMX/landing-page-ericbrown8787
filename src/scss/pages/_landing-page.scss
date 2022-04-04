@@ -1,5 +1,12 @@
 @use "../abstracts/variables" as *;
 
 body {
-  background-color: plum;
+  min-height: 100vh;
+  background: linear-gradient(
+    0deg,
+    rgba(224, 8, 153, 1) 1%,
+    rgba(170, 67, 230, 1) 75%
+  );
+
+  background-size: cover;
 }
