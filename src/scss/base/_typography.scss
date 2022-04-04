@@ -1,1 +1,29 @@
 /* _typography.scss */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("../fonts/Oswald-VariableFont_wght.ttf") format("truetype");
+}
+
+$logo-font: "Oswald", sans-serif;
+$nav-menu-font: "Roboto", sans-serif;
+
+// //variable font axes
+// $body-wght: "wght" 634;
+// $nav-link-wght: "wght" 680;
+// $card-counter-wght: "wght" 760;
+// $card-heading-wght: "wght" 850;
+// $article-heading-wght: "wght" 900;
+// $form-label-wght: "wght" 680;
+// $about-emphasized-text-wght: "wght" 640;
+
+// //font sizes
+$logo-font-size: 1.5rem;
