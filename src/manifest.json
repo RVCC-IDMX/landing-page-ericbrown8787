@@ -1,0 +1,7 @@
+{
+  "short_name": "Graphic Design Services",
+  "name": "Graphic Design",
+  "icons": [
+    { "src": "images/logo-color.png", "type": "image/png", "sizes": "60x60" }
+  ]
+}
